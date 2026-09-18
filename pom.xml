@@ -12,9 +12,9 @@
     <relativePath/>
   </parent>
 
-  <!-- ⚠️ แก้ artifactId เป็น lab10-{รหัสนักศึกษา}-sec{section} -->
+  <!-- ** แก้ไขตรงนี้เป็นรหัสนักศึกษาและ SEC ของคุณ ** -->
   <groupId>com.example</groupId>
-  <artifactId>lab10-67XXXXXXXX-X-sec1</artifactId>
+  <artifactId>lab10-673380594-9-sec3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>lab10-webflux</name>
   <description>Lab 10 — Spring WebFlux + WebClient | CP353002</description>
@@ -30,7 +30,6 @@
       - spring-webflux  (WebFlux framework)
       - reactor-core    (Mono, Flux)
       - reactor-netty   (Embedded non-blocking server)
-      ⚠️ ห้ามใส่ spring-boot-starter-web ด้วยกัน
     -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
